@@ -4,13 +4,7 @@
 
 This is the undergraduate research project under Prof. Chien's supervision.
 
-## Testing
-### Reducer
-\> make reducer
+# Introduction
+The aim of this project is to implement a c++ model for a Siamese-based VOT tracker on DNN accelerator.
 
-\> ./build/test_reducer
-  
-### Max-Pooling
-\> make max_pool
-
-\> ./build/test_maxpool
+We chose SiamFC++ as our ML model, and SNAP as sparse DNN accelerator.
