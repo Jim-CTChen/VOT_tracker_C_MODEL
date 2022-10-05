@@ -1,0 +1,17 @@
+add_library(PE)
+
+set(PE_SRC_DIR ${PROJECT_SRC_DIR}/pe)
+
+target_sources(PE
+  PRIVATE
+    ${PE_SRC_DIR}/processing_element.cpp
+  PUBLIC
+    processing_element.h
+)
+
+target_include_directories(PE
+  PUBLIC
+    ${PROJECT_INC_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
