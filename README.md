@@ -2,11 +2,13 @@
 
 2022 special project c model
 
+This is the undergraduate research project under Prof. Chien's supervision.
+
 ## Testing
 ### Reducer
-1. > make reducer
-2. > ./build/test_reducer
+\> make reducer
+\> ./build/test_reducer
   
 ### Max-Pooling
-1. > make max_pool
-2. > ./build/test_maxpool
+\> make max_pool
+\> ./build/test_maxpool
